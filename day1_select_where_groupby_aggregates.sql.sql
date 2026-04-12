@@ -7,13 +7,13 @@ SELECT*FROM movies WHERE industry ="Hollywood";
 #DISTINCT removes duplicate values, useful to see unique categories
 SELECT distinct industry FROM movies;
 
-SELECT * from movies where title LIKE 'THOR%'; #% means "anything after THOR", so this catches Thor, Thor 2, etc.
+SELECT * from movies where title LIKE 'THOR%'; # % means "anything after THOR", so this catches Thor, Thor 2
 
-SELECT * from movies where title LIKE '%America%'; #% on both sides means the word America can appear anywhere in the title
+SELECT * from movies where title LIKE '%America%'; #  % on both sides means the word America can appear anywhere in the title
 
 SELECT * from moviesdb.movies; #same as SELECT * FROM movies, just using full database.table format
 
-#a number can't satisfy both conditions at once, always returns 0 rows
+# a number can't satisfy both conditions at once, always returns 0 rows
 SELECT * from movies where imdb_rating>9 and imdb_rating<=8;
 SELECT * FROM movies WHERE imdb_rating BETWEEN 8 AND 9;
 
