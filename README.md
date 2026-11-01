@@ -29,3 +29,8 @@ Datasets used: moviesdb and awesome chocolates
 # Tools
 - MySQL Workbench
 - MySQL 8.0
+
+# Up Next
+- CTEs (WITH queries)
+- LeetCode SQL practice (3 problems a week)
+- A SQL project on a real business dataset
