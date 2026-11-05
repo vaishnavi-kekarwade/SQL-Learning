@@ -25,6 +25,8 @@ Datasets used: moviesdb and awesome chocolates
 | 04_string_functions.sql | String functions |
 | 05_window_functions.sql | RANK, ROW_NUMBER, PARTITION BY |
 | awesomechocolates_sql_practice.sql | Mixed practice on sales dataset |
+| 08_leetcode_sql.sql | LEFT JOIN, GROUP BY, HAVING practice (LeetCode) |
+
 
 # Tools
 - MySQL Workbench
@@ -34,3 +36,4 @@ Datasets used: moviesdb and awesome chocolates
 - CTEs (WITH queries)
 - LeetCode SQL practice (3 problems a week)
 - A SQL project on a real business dataset
+
