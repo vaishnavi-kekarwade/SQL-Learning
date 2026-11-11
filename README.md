@@ -26,6 +26,7 @@ Datasets used: moviesdb and awesome chocolates
 | 05_window_functions.sql | RANK, ROW_NUMBER, PARTITION BY |
 | awesomechocolates_sql_practice.sql | Mixed practice on sales dataset |
 | 08_leetcode_sql.sql | LEFT JOIN, GROUP BY, HAVING practice (LeetCode) |
+| 09_world_practice_2.sql | ORDER BY, GROUP BY, COUNT and WHERE on the world database |
 
 
 # Tools
